@@ -92,6 +92,7 @@ header img {
   text-decoration: none;
   color: brown;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #second-main {
@@ -110,6 +111,7 @@ section {
 footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer div a {
   text-decoration: none;
