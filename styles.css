@@ -1,0 +1,136 @@
+body {
+  background-color: antiquewhite;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: rgb(216, 165, 10);
+}
+
+.navbar li a:hover {
+  color: rgb(173, 75, 5);
+}
+
+.navbar {
+  width: 150rempx;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid #ff7700e6;
+  border-radius: 10px;
+  background-color: rgb(244, 226, 172);
+}
+
+#first-main {
+  background-image: url("/hair-day/Images/pexels-alexander-krivitskiy-1399073.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  background-color: rgb(244, 226, 172);
+}
+
+#first-main h2 {
+  color: rgb(241, 164, 164);
+  text-align: center;
+}
+
+#first-main p {
+  color: white;
+  margin: 20px;
+}
+
+#second-main img {
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#second-main article {
+  border-radius: 10px;
+  background-color: rgb(244, 226, 172);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0px;
+}
+
+#second-main article p {
+  margin: 20px;
+}
+
+#second-main article h3 {
+  text-align: center;
+}
+
+#second-main article:hover {
+  background-color: rgb(224, 131, 64);
+  color: rgb(200, 247, 244);
+  border: 2px solid rgb(249, 79, 0);
+}
+
+#second-main article a {
+  text-align: center;
+  text-decoration: none;
+  color: brown;
+  margin-top: 20px;
+}
+
+#second-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer div a {
+  text-decoration: none;
+  color: rgb(173, 75, 5);
+}
+
+footer img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+hr {
+  margin-top: 20px;
+}
